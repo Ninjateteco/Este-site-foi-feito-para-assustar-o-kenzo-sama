@@ -1,0 +1,39 @@
+<!DOCTYPE JavaScript>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Olá Kenzo</title>
+  <style>
+    /* Style the title to be red and bold */
+    h1 {
+      color: rgb(55, 14, 204);
+      font-weight: bolder;
+    }
+    /* Style the images to be small and side by side */
+    
+
+    .small-image:last-child {
+      margin-right: 0;
+    }
+  </style>
+</head>
+<body javaScript>
+  <!-- Display the title within the page -->
+  <h1>Olá Kenzo</h1>
+  <!-- Add two small images side by side -->
+  <img class="c:\Users\HOME\Downloads\pix.jpg" id="image1" src="c:\Users\HOME\Downloads\pix.jpg" alt="Image 1">
+  <img class="c:\Users\HOME\Downloads\spike.jpg" id="image2" src="c:\Users\HOME\Downloads\spike.jpg" alt="Image 2">
+  <!-- Add a red bold text -->
+  <h1 id="text" style="color: red; font-weight: bold;">Kenzo!!</h1>
+  <!-- Add JavaScript to display the text and images -->
+  <script>
+    // Display the text and images after a delay
+    setTimeout(() => {3
+      document.getElementById('text').style.display = 'block';
+      document.getElementById('image1').style.display = 'block';
+      document.getElementById('image2').style.display = 'block';
+    }, 1000);
+  </script>
+</body JavaScript>
+</html JavaScript>
